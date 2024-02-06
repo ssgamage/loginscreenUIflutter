@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
                       padding:
                           EdgeInsets.symmetric(vertical: 25, horizontal: 20),
                       child: Text(
-                        'Welcome back',
+                        'Welcome Back',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.pink,

@@ -108,6 +108,15 @@ class _MyAppState extends State<MyApp> {
                                           rememberMe = value!;
                                         });
                                       },
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(5.0),
+                                      ),
+                                      side: MaterialStateBorderSide.resolveWith(
+                                        (states) => const BorderSide(
+                                            width: 1.0,
+                                            color: Colors.pinkAccent),
+                                      ),
                                       fillColor: MaterialStateProperty
                                           .resolveWith<Color?>(
                                         (Set<MaterialState> states) {

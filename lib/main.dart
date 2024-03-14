@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
                           EdgeInsets.symmetric(vertical: 25, horizontal: 20),
                       child: Text(
                         //Demo Edit for test 'Welcome back'
-                        'Welcome Sachila',
+                        'Welcome Dilhara',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.pink,
